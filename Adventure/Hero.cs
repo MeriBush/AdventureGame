@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace Adventure
 {
-    class Program
+    class Hero : Character
     {
-        static void Main(string[] args)
-        {
-            ProgramUI program = new ProgramUI();
-            program.Run();
-        }
+
     }
 }

@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Adventure
 {
-    class Program
+    abstract class Character
     {
-        static void Main(string[] args)
-        {
-            ProgramUI program = new ProgramUI();
-            program.Run();
-        }
+        public string Name { get; set; }
+        public int Energy { get; set; }
+        public bool HasEnergy { get; set; }
     }
 }
